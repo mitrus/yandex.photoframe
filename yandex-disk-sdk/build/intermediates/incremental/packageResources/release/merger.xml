@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="/Users/mitrus/Dropbox/Photoframe/yandex-disk-sdk/res" >
+            <file
+                path="/Users/mitrus/Dropbox/Photoframe/yandex-disk-sdk/res/values/strings.xml"
+                qualifiers="" >
+                <string name="projest_name" >sdk
+                </string>
+            </file>
+        </source>
+        <source path="/Users/mitrus/Dropbox/Photoframe/yandex-disk-sdk/build/generated/res/rs/release" />
+        <source path="/Users/mitrus/Dropbox/Photoframe/yandex-disk-sdk/build/generated/res/generated/release" />
+    </dataSet>
+    <dataSet config="release" >
+        <source path="/Users/mitrus/Dropbox/Photoframe/yandex-disk-sdk/src/release/res" />
+    </dataSet>
+
+</merger>
